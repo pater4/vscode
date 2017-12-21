@@ -1,0 +1,144 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "editor.fontFamily": "'Ricty Discord', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "vim.useSystemClipboard": true,
+    "vim.easymotion": true,
+    "vim.hlsearch": true,
+    "vim.easymotionKeys": "jklfdsyhntgbuiorewmvcxpqaz",
+    "files.insertFinalNewline": true,
+    "phpformatter.composer": true,
+    "phpformatter.arguments": [
+        "--using-cache=false"
+    ],
+    "editor.formatOnSave": true,
+    "phpcs.standard": "PSR2",
+    "vim.leader": "<Space>",
+    "vim.easymotionMarkerFontFamily": "Ricty Discord",
+    "vim.easymotionMarkerBackgroundColor": "rgba(180, 0, 0, 1.0)",
+    "vim.easymotionMarkerWidthPerChar": 8,
+    "vim.easymotionMarkerHeight": 21,
+    "vim.easymotionMarkerYOffset": 0,
+    "vim.otherModesKeyBindingsNonRecursive": [],
+    "vim.insertModeKeyBindings": [],
+    "vim.otherModesKeyBindings": [
+        {
+            "before": [
+                "leader",
+                "l"
+            ],
+            "after": [
+                "leader",
+                "leader",
+                "w"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "h"
+            ],
+            "after": [
+                "leader",
+                "leader",
+                "b"
+            ]
+        },
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "f",
+                "s"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpenPreviousEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "f",
+                "d"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.removeFromEditorHistory",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-w>",
+                "c"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    // "background.customImages": [
+    //     "https://shalldie.gallerycdn.vsassets.io/extensions/shalldie/background/1.1.17/1510476578779/Microsoft.VisualStudio.Services.Icons.Default"
+    // ],
+    "background.useDefault": false,
+    "background.style": {
+        "content": "''",
+        "pointer-events": "none",
+        "position": "absolute",
+        "z-index": "99999",
+        "width": "100%",
+        "height": "100%",
+        "background-position": "100% 100%",
+        "background-repeat": "no-repeat",
+        "opacity": 0.3
+    },
+    "workbench.editor.showTabs": false,
+    "editor.minimap.enabled": false,
+    "editor.autoClosingBrackets": false,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false
+}
