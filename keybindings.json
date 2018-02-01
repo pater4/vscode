@@ -23,12 +23,12 @@
     {
         "key": "h",
         "command": "list.collapse",
-        "when": "listFocus"
+        "when": "listFocus && !inputFocus"
     },
     {
         "key": "l",
-        "command": "list.expand",
-        "when": "listFocus"
+        "command": "list.select",
+        "when": "listFocus && !inputFocus"
     },
     {
         "key": "f s",
@@ -64,5 +64,9 @@
         "key": "ctrl+alt+space",
         "command": "-toggleSuggestionFocus",
         "when": "editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key": "alt+f",
+        "command": "workbench.action.terminal.focusNext"
     }
 ]

@@ -140,5 +140,14 @@
     "editor.autoClosingBrackets": false,
     "editor.acceptSuggestionOnEnter": "smart",
     "window.zoomLevel": 0,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "ruby.lint": {
+        "rubocop": {
+            "rails": true
+        },
+        "ruby": {
+            "unicode": true //Runs ruby -wc -Ku
+        }
+    },
 }
